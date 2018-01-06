@@ -5,8 +5,8 @@
   cp -R app/build/outputs/apk/app-debug.apk $HOME/android/
   #go to home and setup git
   cd $HOME
-  git config --global user.email "ayushi.gupta@rubique.com"
-  git config --global user.name "Ayushi Gupta"
+  git config --global user.email "useremail@domain.com"
+  git config --global user.name "Your Name"
   #clone the repository in the buildApk folder
   git clone --quiet --branch=master  https://user-name:$GITHUB_API_KEY@github.com/user-name/repo-name  master > /dev/null
   #go into directory and copy data we're interested
