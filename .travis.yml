@@ -1,6 +1,5 @@
 language: android
-jdk:
-  - oraclejdk8
+jdk: oraclejdk8
 
 android:
   components:
@@ -21,6 +20,5 @@ android:
  after_success:
  - chmod +x ./upload-gh-pages.sh
  - ./upload-apk.sh
- 
- script:
- - ./gradlew build
+
+ script: ./gradlew build
