@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         findViewById(R.id.button_location_and_contacts).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                System.out.println("Hey,it's just to tst");
                 locationAndContactsTask();
             }
         });
